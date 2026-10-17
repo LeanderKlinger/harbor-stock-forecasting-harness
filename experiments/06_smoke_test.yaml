@@ -1,0 +1,35 @@
+name: "smoke_test"
+description: "Minimal grid to verify runner + leaderboard"
+
+base:
+  training_start: "2011-01-01"
+  training_end: "2019-12-31"
+  test_start: "2020-01-01"
+  test_end: "2023-12-31"
+  headline_only: true
+  stock_ids: ["NVDA", "COST", "MS"]
+  top_k: 2
+  sequence_length: 60
+
+model_defaults:
+  hidden_size: 32
+  num_layers: 1
+  epochs: 5
+  batch_size: 64
+  dropout: 0.2
+  early_stopping_patience: 3
+
+grid:
+  model:
+    - type: GRU
+    - type: ARIMA
+    - type: Momentum
+      lookback: 20
+
+  rebalance_horizon_days: [5, 20]
+  sentiment_ema_spans:
+    - [5, 10, 20]
+  min_predicted_return: [0.0]
+  transaction_cost_pct: [0.001]
+
+seeds: [42, 123]

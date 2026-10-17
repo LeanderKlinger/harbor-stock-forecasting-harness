@@ -1,0 +1,31 @@
+name: "missing_models"
+description: "Jamba, MLP, HoltsLES, EqualWeight across horizons and thresholds"
+
+base:
+  training_start: "2011-01-01"
+  training_end: "2019-12-31"
+  test_start: "2020-01-01"
+  test_end: "2023-12-31"
+  headline_only: true
+  stock_ids: ["MS", "COST", "DE", "NVDA", "TMO", "VLO", "TJX", "MRK", "COP"]
+  transaction_cost_pct: 0.001
+  top_k: 4
+
+model_defaults:
+  hidden_size: 64
+  num_layers: 2
+  epochs: 50
+  batch_size: 64
+  early_stopping_patience: 5
+
+grid:
+  model:
+    - type: Jamba
+    - type: MLP
+    - type: HoltsLES
+    - type: EqualWeight
+
+  rebalance_horizon_days: [1, 5, 20]
+  min_predicted_return: [0.0, 0.01]
+
+seeds: [42, 123, 456]

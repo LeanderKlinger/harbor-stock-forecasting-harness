@@ -1,0 +1,51 @@
+name: "13_feature_set_ablation"
+description: "Input-vector ablation: neural models at three input widths (full 16-feat / numeric 7-feat / close-only) under the canonical headline env, all market+statistical baselines co-run as reference rows. Contrasts: full-vs-numeric isolates the semantic vector; numeric-vs-close_only isolates numeric enrichment; close_only gives input parity with HoltsLES/ARIMA. ARIMA h=1 cells skip via the runner's known-infeasible guard (LU under auto cadence)."
+
+base:
+  training_start: "2011-01-01"
+  training_end: "2019-12-31"
+  test_start: "2020-01-01"
+  test_end: "2023-12-31"
+  headline_only: true
+  stock_ids: ["MS", "COST", "DE", "NVDA", "TMO", "VLO", "TJX", "MRK", "COP"]
+  top_k: 4
+  sequence_length: 60
+  retraining_cadence_days: "auto"
+  sentiment_ema_spans: [5, 10, 20]
+  min_predicted_return: 0.01
+  transaction_cost_pct: 0.001
+  conviction_mode: "volatility_scaled"
+
+model_defaults:
+  hidden_size: 64
+  num_layers: 2
+  epochs: 50
+  batch_size: 64
+  dropout: 0.2
+  early_stopping_patience: 5
+
+grid:
+  model:
+    - type: xLSTM
+    - type: GRU
+    - type: Mamba
+    - type: Jamba
+    - type: MLP
+    - type: ARIMA
+    - type: HoltsLES
+    - type: BuyAndHold
+    - type: EqualWeight
+    - type: Momentum
+      lookback: 20
+
+  rebalance_horizon_days: [1, 5, 20]
+  feature_set: ["full", "numeric", "close_only"]
+
+# Runs: 5 neural x 5 seeds x 3 horizons x 3 feature sets = 225
+#     + 4 deterministic x 1 x 3 horizons x 3 feature sets = 36
+#     + ARIMA 1 x (3 horizons x 3 feature sets - 3 skipped h=1 cells) = 6
+# = 267. Deterministic runs are identical across feature sets by design (flag is
+# a torch-only knob) — deduped post-run to the "full" arm; B&H collapses horizons
+# via the runner override.
+
+seeds: [42, 69, 456, 789, 1337]

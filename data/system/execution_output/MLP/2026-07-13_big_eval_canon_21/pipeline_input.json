@@ -1,0 +1,44 @@
+{
+  "config": {
+    "training_start": "2011-01-01T00:00:00",
+    "training_end": "2019-12-31T00:00:00",
+    "test_start": "2020-01-01T00:00:00",
+    "test_end": "2023-12-31T00:00:00",
+    "trading_days": 252,
+    "market_condition": "idyllic",
+    "transaction_cost_pct": 0.001,
+    "risk_free_rate": 0.02,
+    "var_confidence": 0.95,
+    "sequence_length": 60,
+    "rebalance_horizon_days": 20,
+    "top_k": 4,
+    "min_predicted_return": 0.0,
+    "conviction_mode": "volatility_scaled",
+    "early_stopping_patience": 5,
+    "retraining_cadence_days": "auto",
+    "execution_name": "default",
+    "description": "",
+    "experiment_name": null,
+    "seed": null,
+    "semantic_model": "claude-haiku-4-5",
+    "headline_only": true,
+    "sentiment_ema_spans": [
+      5,
+      10,
+      20
+    ],
+    "stock_ids": [
+      "MS",
+      "COST",
+      "DE",
+      "NVDA",
+      "TMO",
+      "VLO",
+      "TJX",
+      "MRK",
+      "COP"
+    ]
+  },
+  "initial_capital": 100000.0,
+  "stock_data_ref": "e7200eca150af8fb"
+}

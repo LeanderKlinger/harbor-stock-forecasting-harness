@@ -1,0 +1,25 @@
+.env
+
+# Local environments, caches and editor state
+.venv/
+node_modules/
+.ruff_cache/
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store
+
+# Ignores everything inside the directory rather than the whole directory (thus we can exclude things later!)
+/data/**
+
+**/__pycache__/
+
+# Specifically allow the following
+!/data/articles/
+!/data/articles/**
+
+!/data/system/
+!/data/system/**
+
+!/data/stock_data/
+!/data/stock_data/**

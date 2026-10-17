@@ -1,0 +1,63 @@
+    {
+      "timestamp": "2024-01-09 00:00:00",
+      "headline": "Is iShares Semiconductor ETF (SOXX) a Strong ETF Right Now?",
+      "full_text": "The iShares Semiconductor ETF (SOXX) was launched on 07/10/2001, and is a smart beta exchange traded fund designed to offer broad exposure to the Technology ETFs category of the market.\nWhat Are Smart Beta ETFs?\nThe ETF industry has long been dominated by products based on market cap weighted indexes, a strategy created to reflect the market or a particular market segment.\nMarket cap weighted indexes offer a low-cost, convenient, and transparent way of replicating market returns, and are a good ",
+      "score": 0.0,
+      "summary": "Article provides informational overview of SOXX semiconductor ETF, noting AMD comprises 9.48% of holdings. SOXX is down 2.88% YTD but up 55.09% over past year. Content is educational ETF analysis with no new material developments about AMD specifically. News offers no forward-looking catalysts or company-specific information beyond AMD's index weighting."
+    },
+    {
+      "timestamp": "2024-01-09 00:00:00",
+      "headline": "Stock Market News for Jan 9, 2024",
+      "full_text": "U.S. stock markets closed sharply higher on Monday after finishing the first week of 2024 in red. Technology stocks rebounded following a decline in the yield of U.S. government bond yield. However, the time when the Fed will initiate first interest rate cut remained uncertain. All three major stock indexes ended in positive territory.\nHow Did The Benchmarks Perform?\nThe Dow Jones Industrial Average (DJI) was up 0.6% or 216.9 points to close at 37,683.01. At intraday low, the blue-chip index was",
+      "score": 0.4,
+      "summary": "U.S. markets rallied on January 9, 2024, with technology stocks rebounding after a weak first week. AMD gained 5.4% alongside broader tech strength, as the Nasdaq jumped 2.2%. Positive jobs data showed 216K December additions, but uncertainty around Fed rate cuts persisted. AMD's gain reflected sector-wide recovery in large-cap tech stocks following declining bond yields."
+    },
+    {
+      "timestamp": "2024-01-09 00:00:00",
+      "headline": "Japan's Nikkei hits 33-year high as tech stocks surge",
+      "full_text": "TOKYO, Jan 9 (Reuters) - Japan's Nikkei share average hit its highest level since March 1990 on Tuesday, as investors snapped up chip-related stocks tracking an overnight Wall Street rally in technology shares.\nThe Nikkei .N225 was up 1.44% at 33858.63 by the mid-day break, after hitting a 33-year high of 33990.28 earlier. Of the 225 stocks on the index, 151 advanced.\nThe broader Topix index .TOPX was up 0.93%.\nChip-related stocks, which tend to move the benchmark, led the Nikkei's rise after ch",
+      "score": 0.2,
+      "summary": "Japan's Nikkei hit a 33-year high driven by chip stocks following Wall Street gains. AMD surged overnight alongside Nvidia, boosting Japanese chip-equipment stocks Tokyo Electron (+4.27%) and Advantest (+7.06%). The article references AMD positively as a catalyst for the broader tech rally but provides no AMD-specific fundamentals or forward guidance."
+    },
+    {
+      "timestamp": "2024-01-09 00:00:00",
+      "headline": "Will Advanced Micro Devices Be a Trillion-Dollar Stock by 2030?",
+      "full_text": "The trillion-dollar club is certainly rarified air, and one that every company aspires to join. Investors, of course, aspire to find the next candidate with the potential to join such elite company. Odds are, every company that has reached that milestone has made many fortunes for investors along the way.\nCase in point: Artificial intelligence (AI) chip star Nvidia (NASDAQ: NVDA) began 2023 at just a $350 billion market cap, but has more than tripled since, reaching a market cap today exceeding ",
+      "score": 0.5,
+      "summary": "Motley Fool article analyzes AMD's path to $1 trillion market cap by 2030, citing Lisa Su's strong track record (market cap up 100x since 2014) and AI chip opportunity. While acknowledging Nvidia's significant lead in AI accelerators, article projects AMD could reach $65B revenue by 2027 capturing 10% of $400B AI chip market. Notes MI300 specs exceed H100 in some areas but lacks transformer engine and faces Nvidia's accelerated development cycle."
+    },
+    {
+      "timestamp": "2024-01-09 00:00:00",
+      "headline": "Zacks Industry Outlook Highlights Advanced Micro Devices, ASE Technology, Cirrus Logic and QuickLogic",
+      "full_text": "For Immediate Release\nChicago, IL \u2013 January 9, 2024 \u2013 Today, Zacks Equity Research discusses Advanced Micro Devices AMD, ASE Technology ASX, Cirrus Logic CRUS and QuickLogic QUIK.\nIndustry: Semiconductors\nLink: https://www.zacks.com/commentary/2206808/4-electronics-semiconductor-stocks-to-escape-macro-headwinds\nThe challenging global macroeconomic environment and end-market volatility have affected the Zacks Electronics - Semiconductors industry. Geo-political tensions, unfavorable forex and ris",
+      "score": 0.05,
+      "summary": "Zacks Industry Outlook highlights AMD among semiconductor stocks positioned to navigate macro headwinds. Article notes AMD's portfolio strength, EPYC processor demand, and recent Ryzen 8040/Instinct MI300 launches. However, broader semiconductor industry faces challenges from macroeconomic pressures, geopolitical tensions, and ranks in bottom 25% of Zacks industries. AMD receives Hold rating with unchanged consensus estimates and 106% prior-year gain."
+    },
+    {
+      "timestamp": "2024-01-09 00:00:00",
+      "headline": "AMD Strengthens Portfolio With New Radeon & Ryzen Products",
+      "full_text": "Advanced Micro Devices AMD is expanding its gaming portfolio with the launch of the Radeon RX 7600 XT graphics card. The graphics card features 16GB of high-speed GDDR6 memory that supports next-generation AI and content creation workloads. The new graphics card improves AMD\u2019s competitive prowess against NVIDIA NVDA.\n\nUsers with AMD\u2019s latest graphics card, in support with AMD FidelityFX Super Resolution and AMD HYPR-RX with AMD Fluid Motion Frames, can deliver up to 1.9 times faster gaming and r",
+      "score": 0.45,
+      "summary": "AMD announces new Radeon RX 7600 XT graphics card and Ryzen 8000G desktop processors, expanding gaming and AI portfolio. Article highlights competitive positioning vs NVIDIA, upcoming Q4 guidance showing 9% YoY revenue growth, and strong data center momentum with MI300X accelerators being adopted by Microsoft, Oracle, and Dell. Company maintains Zacks Rank #3 (Hold) with double-digit growth expected in Data Center and Client segments."
+    },
+    {
+      "timestamp": "2024-01-09 00:00:00",
+      "headline": "AMD Quantitative Stock Analysis",
+      "full_text": "Below is Validea's guru fundamental report for ADVANCED MICRO DEVICES, INC. (AMD). Of the 22 guru strategies we follow, AMD rates highest using our Twin Momentum Investor model based on the published strategy of Dashan Huang. This momentum model looks for a combination of fundamental momentum and price momentum.\nADVANCED MICRO DEVICES, INC. (AMD) is a large-cap growth stock in the Semiconductors industry. The rating using this strategy is 100% based on the firm\u2019s underlying fundamentals and the ",
+      "score": 0.4,
+      "summary": "Validea's quantitative analysis gives AMD a 100% rating using the Twin Momentum Investor model, which combines fundamental momentum and price momentum. AMD passed all strategy tests including fundamental momentum and twelve-minus-one momentum checks. The model, based on Dashan Huang's research, historically identifies stocks in the top 20% for outperformance when combining improving fundamentals with price momentum."
+    },
+    {
+      "timestamp": "2024-01-08 00:00:00",
+      "headline": "4 Electronics Semiconductor Stocks to Escape Macro Headwinds",
+      "full_text": "The challenging global macroeconomic environment and end-market volatility have affected the Zacks Electronics - Semiconductors industry. Geo-political tensions, unfavorable forex and rising inflationary pressure also weigh heavily on the industry\u2019s prospects.\nNevertheless, industry players like Advanced Micro Devices AMD, ASE Technology ASX, Cirrus Logic CRUS and QuickLogic QUIK have been benefiting from the increasing demand for high-volume consumer electronic devices, such as digital media pl",
+      "score": 0.25,
+      "summary": "Zacks article highlights AMD as one of four semiconductor stocks positioned to weather macroeconomic headwinds. AMD benefits from strong EPYC processor demand, recent Ryzen 8040 and Instinct MI300 launches, and expanding data center adoption. However, the semiconductor industry ranks bottom 25% of sectors with 4.2% downward earnings revisions. AMD holds Zacks Rank #3 (Hold), has gained 106.1% over past year, with consensus earnings estimate unchanged at $2.65 per share."
+    },
+    {
+      "timestamp": "2024-01-08 00:00:00",
+      "headline": "3 Technology Titans Poised for Massive Growth",
+      "full_text": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips\nIf you invested in just about any of the big tech stocks earlier last year, chances are you made a decent return by year\u2019s end. The Nasdaq, which tracks many of the major technology equities, rose by 43.4% in 2023, beating all other major indices. Now that we\u2019re in 2024, it\u2019s time to reexamine some of these tech giants and see which ones are poised for massive growth in the coming quarters. \nAdvanced Micro Devices (AMD)\nSource: JHVEP",
+      "score": 0.5,
+      "summary": "Article highlights AMD as one of three tech stocks poised for growth in 2024, emphasizing its MI300x GPU for AI/LLM markets competing with Nvidia. Notes AMD stock doubled in 2023 despite PC market concerns and $2B AI chip revenue forecast. Frames 2024 as critical year for AMD to prove competitiveness in high-performance AI chips and data centers."
+    }

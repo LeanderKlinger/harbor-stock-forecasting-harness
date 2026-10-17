@@ -1,0 +1,40 @@
+name: "seqlen_sweep"
+description: "Sequence-length sweep across neural models under the headline realistic environment: does longer context rescue neural performance? seq=60/hz=20 point reproduces a headline neural config under deterministic seeding."
+
+base:
+  training_start: "2011-01-01"
+  training_end: "2019-12-31"
+  test_start: "2020-01-01"
+  test_end: "2023-12-31"
+  headline_only: true
+  stock_ids: ["MS", "COST", "DE", "NVDA", "TMO", "VLO", "TJX", "MRK", "COP"]
+  top_k: 4
+  sentiment_ema_spans: [5, 10, 20]
+  # Pinned to the headline winning config's realistic environment so the
+  # sweep gives neural its best-shot conditions and stays comparable to 05.
+  transaction_cost_pct: 0.001
+  min_predicted_return: 0.01
+  conviction_mode: "volatility_scaled"
+
+model_defaults:
+  hidden_size: 64
+  num_layers: 2
+  epochs: 50
+  batch_size: 64
+  dropout: 0.2
+  early_stopping_patience: 5
+
+grid:
+  model:
+    - type: xLSTM
+    - type: GRU
+    - type: Mamba
+    - type: Jamba
+    - type: MLP
+
+  sequence_length: [60, 120, 250] # THE sweep axis
+  rebalance_horizon_days: [5, 20]
+
+# Grid: 3 seq_lengths x 2 horizons = 6 config combos
+# Runs: 5 neural x 5 seeds x 6 = 150 neural runs total
+seeds: [42, 69, 456, 789, 1337]

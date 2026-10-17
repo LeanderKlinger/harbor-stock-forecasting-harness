@@ -1,0 +1,280 @@
+{
+  "stock_id": "AMD",
+  "model": "gpt-5.2",
+  "processed_count": 30,
+  "results": [
+    {
+      "timestamp": "2024-01-08 00:00:00",
+      "headline": "The 3 Best Machine Learning Stocks to Buy in January 2024",
+      "full_text": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips\nMachine learning is transforming sectors including healthcare and transportation, offering lucrative opportunities in the best machine learning stocks. However, investors should approach cautiously, as not all stocks in this sector ensure returns. Discernment is key, as many firms claim advanced machine learning needs more solid business models or definitive applications.\nMoreover, this sector branches into specialized niches, includ",
+      "score": 0.32,
+      "summary": "InvestorPlace lists AMD as one of the \u201cbest machine learning stocks,\u201d highlighting a small Q3 beat, strong client-segment growth, and optimism that MI300 chips can compete with Nvidia\u2019s H100 and attract big customers (e.g., Meta, Microsoft).",
+      "index": 9
+    },
+    {
+      "timestamp": "2024-01-08 00:00:00",
+      "headline": "If You Can Only Buy One AI Stock in January, It Better Be One of These 3 Names",
+      "full_text": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips\nThe artificial intelligence (AI) boom shows no signs of cooling, creating significant opportunity for AI stocks. First, we have to consider tech heavyweights that are investing billions into it. Next, analysts at Next Move Strategy Consulting say the AI market, currently valued at about $100 billion, could grow twenty-fold by 2030 to more than $2 trillion.\nFinally, according to analysts at UBS, \u201cIf the launch of the ChatGPT applicati",
+      "score": 0.45,
+      "summary": "InvestorPlace pitches AMD as a top AI buy, citing MI300X revenue expectations (~$2B), UBS \u201ctop pick\u201d commentary, and multiple analyst price-target raises (e.g., Truist, Mizuho), framing recent pullback as a buying opportunity.",
+      "index": 10
+    },
+    {
+      "timestamp": "2024-01-08 00:00:00",
+      "headline": "US STOCKS-Nasdaq ends higher as yields fall, Boeing curbs gains on Dow",
+      "full_text": "By Chuck Mikolajczak\nNEW YORK, Jan 8 (Reuters) - The Nasdaq scored its first gain of at least 1% in 2024 on Monday, as a fall in Treasury yields helped lift megacap stocks, while a sharp drop in Boeing shares kept gains on the Dow Industrials in check.\nMegacaps advanced, lifting stocks such as Amazon.com AMZN.O which closed up 2.66% and Alphabet GOOGL.O, which rose 2.29%, as Treasury yields fell ahead of readings on inflation and a new supply of government debt this week, with the benchmark 10-y",
+      "score": 0.12,
+      "summary": "Reuters market wrap notes AMD rose ~5.5% alongside Nvidia as falling Treasury yields boosted megacap/semiconductor stocks; the mention is mostly as part of a broader risk-on session rather than new AMD-specific fundamentals.",
+      "index": 11
+    },
+    {
+      "timestamp": "2024-01-09 00:00:00",
+      "headline": "Is iShares Semiconductor ETF (SOXX) a Strong ETF Right Now?",
+      "full_text": "The iShares Semiconductor ETF (SOXX) was launched on 07/10/2001, and is a smart beta exchange traded fund designed to offer broad exposure to the Technology ETFs category of the market.\nWhat Are Smart Beta ETFs?\nThe ETF industry has long been dominated by products based on market cap weighted indexes, a strategy created to reflect the market or a particular market segment.\nMarket cap weighted indexes offer a low-cost, convenient, and transparent way of replicating market returns, and are a good ",
+      "score": 0.0,
+      "summary": "Zacks overview of the iShares Semiconductor ETF (SOXX) highlights AMD as a large holding (~9.5% weight) but contains no new AMD-specific fundamentals, guidance, or catalyst\u2014mostly informational about ETF structure, fees, holdings, and historical performance.",
+      "index": 0
+    },
+    {
+      "timestamp": "2024-01-09 00:00:00",
+      "headline": "Stock Market News for Jan 9, 2024",
+      "full_text": "U.S. stock markets closed sharply higher on Monday after finishing the first week of 2024 in red. Technology stocks rebounded following a decline in the yield of U.S. government bond yield. However, the time when the Fed will initiate first interest rate cut remained uncertain. All three major stock indexes ended in positive territory.\nHow Did The Benchmarks Perform?\nThe Dow Jones Industrial Average (DJI) was up 0.6% or 216.9 points to close at 37,683.01. At intraday low, the blue-chip index was",
+      "score": 0.1,
+      "summary": "Market wrap notes a strong rebound in tech stocks, explicitly citing AMD up ~5.4% in the session; however, it\u2019s descriptive of a past day\u2019s move and macro backdrop (rates/ISM/jobs) rather than new company-specific news.",
+      "index": 1
+    },
+    {
+      "timestamp": "2024-01-09 00:00:00",
+      "headline": "Japan's Nikkei hits 33-year high as tech stocks surge",
+      "full_text": "TOKYO, Jan 9 (Reuters) - Japan's Nikkei share average hit its highest level since March 1990 on Tuesday, as investors snapped up chip-related stocks tracking an overnight Wall Street rally in technology shares.\nThe Nikkei .N225 was up 1.44% at 33858.63 by the mid-day break, after hitting a 33-year high of 33990.28 earlier. Of the 225 stocks on the index, 151 advanced.\nThe broader Topix index .TOPX was up 0.93%.\nChip-related stocks, which tend to move the benchmark, led the Nikkei's rise after ch",
+      "score": 0.15,
+      "summary": "Reuters reports Japan\u2019s Nikkei hitting a 33-year high driven by chip-related buying after Nvidia and AMD surged overnight in the U.S.; this reinforces positive sector momentum but does not add new AMD-specific information.",
+      "index": 2
+    },
+    {
+      "timestamp": "2024-01-08 00:00:00",
+      "headline": "US STOCKS-Nasdaq rallies as yields fall, Boeing curbs gains on Dow",
+      "full_text": "By Chuck Mikolajczak\nNEW YORK, Jan 8 (Reuters) - The Nasdaq closed with a gain of at least 1% for the first time in 2024 on Monday, as a fall in Treasury yields helped lift megacap stocks, while a sharp drop in Boeing shares kept gains on the Dow Industrials in check.\nMegacaps such as Amazon.com AMZN.O and Alphabet GOOGL.O gained as Treasury yields fell ahead of readings on inflation and a new supply of government debt this week, with the benchmark 10-year U.S. Treasury yield US10YT=R hitting a ",
+      "score": 0.2,
+      "summary": "Reuters market wrap notes a broad Nasdaq rebound driven by falling Treasury yields; AMD shares \u201csurged\u201d alongside Nvidia as the SOX semiconductor index rose ~3% after a sharp prior-week decline. This is mostly macro/sector risk-on support rather than AMD-specific fundamentals.",
+      "index": 12
+    },
+    {
+      "timestamp": "2024-01-08 00:00:00",
+      "headline": "Wall Street Says This Company Is the \"Godfather of AI.\" Here's Why I Think the Stock Looks Undervalued.",
+      "full_text": "Hype around artificial intelligence (AI) rocked the markets in 2023, sending the tech-heavy Nasdaq soaring more than 40%.\nThe megacap Magnificent Seven stocks were at the epicenter of AI mania, and perhaps their most influential member is semiconductor manufacturer Nvidia (NASDAQ: NVDA). The company saw its market cap balloon in 2023, and it joined Apple, Microsoft, Amazon, and Alphabet in the exclusive $1 trillion market-cap club.\nIt's no surprise that Wall Street analyst Dan Ives of Wedbush Se",
+      "score": -0.15,
+      "summary": "Motley Fool piece is primarily bullish on Nvidia; AMD is mentioned mainly as Nvidia\u2019s competitor with a higher forward P/E and \u201cfar behind\u201d Nvidia in AI data center GPUs. That comparison can be mildly negative for AMD near term (competitive positioning/relative attractiveness) despite acknowledging AMD is making progress.",
+      "index": 13
+    },
+    {
+      "timestamp": "2024-01-08 00:00:00",
+      "headline": "Melius Research Upgrades Advanced Micro Devices (AMD)",
+      "full_text": "Fintel reports that on January 8, 2024, Melius Research upgraded their outlook for Advanced Micro Devices (NasdaqGS:AMD) from Hold to Buy .\nAnalyst Price Forecast Suggests 2.54% Downside\nAs of December 16, 2023, the average one-year price target for Advanced Micro Devices is 135.06. The forecasts range from a low of 60.60 to a high of $210.00. The average price target represents a decrease of 2.54% from its latest reported closing price of 138.58.\nSee our leaderboard of companies with the larges",
+      "score": 0.45,
+      "summary": "Melius Research upgrades AMD from Hold to Buy, a direct positive catalyst that can lift near-term sentiment/flows. However, the article also notes the consensus average price target implies ~2.5% downside from the latest close, tempering impact.",
+      "index": 14
+    },
+    {
+      "timestamp": "2024-01-07 00:00:00",
+      "headline": "Guru Fundamental Report for AMD",
+      "full_text": "Below is Validea's guru fundamental report for ADVANCED MICRO DEVICES, INC. (AMD). Of the 22 guru strategies we follow, AMD rates highest using our Twin Momentum Investor model based on the published strategy of Dashan Huang. This momentum model looks for a combination of fundamental momentum and price momentum.\nADVANCED MICRO DEVICES, INC. (AMD) is a large-cap growth stock in the Semiconductors industry. The rating using this strategy is 100% based on the firm\u2019s underlying fundamentals and the ",
+      "score": 0.22,
+      "summary": "Validea model-based writeup says AMD scores very highly (passes fundamental and price momentum screens) under the \u201cTwin Momentum\u201d strategy, implying favorable fundamentals/valuation/momentum characteristics versus its universe.",
+      "index": 21
+    },
+    {
+      "timestamp": "2024-01-06 00:00:00",
+      "headline": "Charting the Course for AMD Stock: After a 114% Rise, What\u2019s Next in 2024?",
+      "full_text": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips\nOver the past year, four stocks with a market capitalization of $200 billion or more (out of 44) had a triple-digit return. Advanced Micro Devices (NASDAQ:AMD) stock was one of them, up 114.2% according to Finviz.com.\nThe others are Nvidia (NASDAQ:NVDA), Meta Platforms (NASDAQ:META), and Tesla (NASDAQ:TSLA), up 237.5%, 178.3%, and 122.1%, respectively.\nThat\u2019s some exclusive company. Care to guess how many of the 44 were down over the",
+      "score": 0.28,
+      "summary": "Opinion piece argues AMD can rise another ~20\u201330% in 2024, citing improved (still positive) free cash flow versus prior years and optimism that MI300X GPU shipments/adoption (Meta, OpenAI, Microsoft mentioned) can drive AI growth, while acknowledging AMD still trails Nvidia materially in cash flow and market dominance.",
+      "index": 22
+    },
+    {
+      "timestamp": "2024-01-06 00:00:00",
+      "headline": "2 Blue Chip Stocks to Buy Hand Over Fist Before the Nasdaq Surges in 2024",
+      "full_text": "The technology-heavy Nasdaq Composite gained some 43% in 2023. And investors are hopeful it will rally further as excitement continues to increase around generative artificial intelligence (AI) technologies. Expectations about interest rate cuts should also push up the Nasdaq in 2024.\nAgainst this backdrop, it makes sense for retail investors to consider picking up small stakes in high-quality blue chip stocks that are already riding robust secular tailwinds ahead of this potential rally. Here's",
+      "score": 0.35,
+      "summary": "Motley Fool-style bullish thesis on AMD as a 2024 buy despite early-year weakness tied to ASML/China export worries; highlights EPYC server share gains, enterprise expansion partners, and expectations for MI300 to generate >$2B revenue in 2024 with a large AI accelerator TAM, while noting valuation is above average.",
+      "index": 23
+    },
+    {
+      "timestamp": "2024-01-08 00:00:00",
+      "headline": "Is NVDA Stock Screeching Out of the Fast Lane? Not Quite!",
+      "full_text": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips\nNvidia (NASDAQ:NVDA) stock surged throughout 2023, but has been sliding as investors take some risk off the table by taking profit. Investors can make prudent moves, but their necessity is questionable. The market may have overreacted to anticipated lower interest rates.\nDespite the company\u2019s impressive performance in 2023, there are indications that growth may slow down more than expected. A surface-level assessment may be causing c",
+      "score": -0.15,
+      "summary": "Article focuses on Nvidia\u2019s outlook; AMD is mentioned mainly as a competitive threat whose recent AI chip launches have made some investors question Nvidia\u2019s growth. The piece ultimately argues Nvidia will maintain dominant share and that AMD/Intel won\u2019t materially hurt NVDA in the near term, implying AMD\u2019s competitive impact is limited short-term.",
+      "index": 18
+    },
+    {
+      "timestamp": "2024-01-07 00:00:00",
+      "headline": "5 Stocks You Can Confidently Invest $500 in Right Now",
+      "full_text": "It's a new year, the best time yet to start investing. After all, compounding does its best work late. The sooner you start, the more wealth you'll build over time.\nOne of my favorite aspects of investing is that the stock market doesn't discriminate. You can prosper whether you're already well-off or starting with just $500. Everyone can benefit from owning stocks.\nPutting pen to paper -- deciding which stocks to own (with thousands to choose from) can be the hardest part of the process. This l",
+      "score": 0.25,
+      "summary": "Motley Fool list highlights AMD as a long-term buy, citing new AI chip generation that it claims can outperform Nvidia\u2019s H100 and large AI accelerator market growth potential (CEO citing $400B market by 2027). Positive framing but largely opinion/known narrative rather than new, near-term catalysts.",
+      "index": 19
+    },
+    {
+      "timestamp": "2024-01-07 00:00:00",
+      "headline": "My Top 10 Stocks for 2024 and Beyond",
+      "full_text": "As 2024 begins, there are opportunities and threats across the market. Investors looking to set up their portfolios for success should look at more than what happened in 2023 and instead look at where there's long-term, sustainable business momentum from companies.\nIn this video, Travis Hoium covers four trends to watch in 2024 and 10 stocks that could outperform the market.\n*Stock prices used were end-of-day prices of Jan. 5, 2023. The video was published on Jan. 5, 2024.\nShould you invest $1,0",
+      "score": 0.1,
+      "summary": "Motley Fool video/article lists top stocks for 2024 and beyond and includes AMD among recommended holdings; minimal AMD-specific new information, mostly broad bullish endorsement for long-term outperformance.",
+      "index": 20
+    },
+    {
+      "timestamp": "2024-01-05 00:00:00",
+      "headline": "2023 in Review: Key Stock Trends and Sector Shifts Unveiled",
+      "full_text": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips\nThe year 2023 was a great one for the stock market. The Dow Jones Industrial Average rose 14% to finish the year at a record high. The benchmark S&P 500 index gained 25% and came within a whisker of a record close. And the technology-focused Nasdaq index increased 43% to register its best year since the internet rally of 1999. So, what can we expect in 2024? How will the markets perform in the year ahead? It\u2019s still very early days, ",
+      "score": -0.25,
+      "summary": "Year-in-review macro/sector piece notes semiconductors (incl. AMD) pulling back to start 2024 after a strong 2023; frames the move as potential profit-taking/rotation away from the AI trade, with AMD down ~9% since year-end.",
+      "index": 27
+    },
+    {
+      "timestamp": "2024-01-05 00:00:00",
+      "headline": "Validea Detailed Fundamental Analysis - AMD",
+      "full_text": "Below is Validea's guru fundamental report for ADVANCED MICRO DEVICES, INC. (AMD). Of the 22 guru strategies we follow, AMD rates highest using our Twin Momentum Investor model based on the published strategy of Dashan Huang. This momentum model looks for a combination of fundamental momentum and price momentum.\nADVANCED MICRO DEVICES, INC. (AMD) is a large-cap growth stock in the Semiconductors industry. The rating using this strategy is 100% based on the firm\u2019s underlying fundamentals and the ",
+      "score": 0.18,
+      "summary": "Validea quantitative \u201cguru\u201d report rates AMD highly (Twin Momentum Investor model) with passes on fundamental momentum and price momentum, implying favorable factor-based outlook.",
+      "index": 28
+    },
+    {
+      "timestamp": "2024-01-05 00:00:00",
+      "headline": "Why AMD Stock Stands to Stay a Winner",
+      "full_text": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips\nLike most other tech stocks, Advanced Micro Devices (NASDAQ:AMD) has been off to a rough start for 2024. After reaching prices nearing $150 per share in late December, AMD stock has since slid back to around $135 per share.\nThe general direction of the broad market has played a role in this. However, valuation-related worries have also been a factor. AMD continues to trade at a moderately high premium to its main peer, Nvidia (NASDAQ",
+      "score": 0.32,
+      "summary": "Bullish commentary argues recent AMD pullback is an opportunity; cites MI300 accelerator ramp and Ryzen AI PC chips as catalysts and suggests potential to beat/raise upcoming earnings despite valuation concerns.",
+      "index": 29
+    },
+    {
+      "timestamp": "2024-01-09 00:00:00",
+      "headline": "AMD Quantitative Stock Analysis",
+      "full_text": "Below is Validea's guru fundamental report for ADVANCED MICRO DEVICES, INC. (AMD). Of the 22 guru strategies we follow, AMD rates highest using our Twin Momentum Investor model based on the published strategy of Dashan Huang. This momentum model looks for a combination of fundamental momentum and price momentum.\nADVANCED MICRO DEVICES, INC. (AMD) is a large-cap growth stock in the Semiconductors industry. The rating using this strategy is 100% based on the firm\u2019s underlying fundamentals and the ",
+      "score": 0.22,
+      "summary": "Validea quantitative/guru-style screen rates AMD highly (passes fundamental and price momentum tests; top score in the Twin Momentum model), implying favorable momentum/valuation characteristics rather than new company-specific fundamentals.",
+      "index": 6
+    },
+    {
+      "timestamp": "2024-01-08 00:00:00",
+      "headline": "4 Electronics Semiconductor Stocks to Escape Macro Headwinds",
+      "full_text": "The challenging global macroeconomic environment and end-market volatility have affected the Zacks Electronics - Semiconductors industry. Geo-political tensions, unfavorable forex and rising inflationary pressure also weigh heavily on the industry\u2019s prospects.\nNevertheless, industry players like Advanced Micro Devices AMD, ASE Technology ASX, Cirrus Logic CRUS and QuickLogic QUIK have been benefiting from the increasing demand for high-volume consumer electronic devices, such as digital media pl",
+      "score": 0.18,
+      "summary": "Zacks piece highlights AMD as one of several semiconductor stocks positioned to weather macro headwinds, citing EPYC demand and AI product launches (Ryzen 8040 w/ Ryzen AI, Instinct MI300) as tailwinds, though it also notes a weak industry rank and macro/geopolitical risks; AMD is rated Zacks #3 (Hold) with unchanged earnings estimates.",
+      "index": 7
+    },
+    {
+      "timestamp": "2024-01-08 00:00:00",
+      "headline": "3 Technology Titans Poised for Massive Growth",
+      "full_text": "InvestorPlace - Stock Market News, Stock Advice & Trading Tips\nIf you invested in just about any of the big tech stocks earlier last year, chances are you made a decent return by year\u2019s end. The Nasdaq, which tracks many of the major technology equities, rose by 43.4% in 2023, beating all other major indices. Now that we\u2019re in 2024, it\u2019s time to reexamine some of these tech giants and see which ones are poised for massive growth in the coming quarters.\nAdvanced Micro Devices (AMD)\nSource: JHVEPh",
+      "score": 0.26,
+      "summary": "InvestorPlace names AMD a tech titan poised for growth, emphasizing MI300X/AI accelerator opportunity and management\u2019s expectation of ~$2B AI chip sales, while acknowledging competitive pressure vs Nvidia and prior PC-market concerns; largely opinion/forward-looking commentary.",
+      "index": 8
+    },
+    {
+      "timestamp": "2024-01-08 00:00:00",
+      "headline": "Why Intel, TSMC, and AMD Stocks All Just Popped",
+      "full_text": "After a rocky start to the year, semiconductor stocks are turning around in a big way on Monday.\nDuring the first week of 2024, some of the world's most famous semiconductor companies -- Taiwan Semiconductor Manufacturing Company (NYSE: TSM), Intel (NASDAQ: INTC), and Advanced Micro Devices (NASDAQ: AMD) -- declined in the wake of December's Santa Claus rally.\nAs the stock market started to find its footing in the second week, however, shares of all three of these companies flipped from sinking ",
+      "score": 0.15,
+      "summary": "AMD rises alongside other chipmakers after reports the Biden administration may broaden actions to protect the U.S. supply chain for older-generation chips (possible subsidies/tariffs vs China). However, the article notes AMD is not a clear direct beneficiary (policy focus is more on lower-end/microcontroller players), and it highlights AMD\u2019s relatively high valuation versus peers, which tempers the upside implication.",
+      "index": 15
+    },
+    {
+      "timestamp": "2024-01-08 00:00:00",
+      "headline": "Boeing drags Dow to two-week low, megacaps boost Nasdaq",
+      "full_text": "By Johann M Cherian and Ankika Biswas\nJan 8 (Reuters) - Tech-laden Nasdaq jumped more than 1% to a near one-week high on Monday, boosted by a rebound in megacaps and chip stocks, while blue-chip index Dow slipped to a fresh two-week low as Boeing shares tanked following the grounding of some its jets.\nMegacaps like Amazon.com AMZN.O and Alphabet GOOGL.O gained over 1%, while AppleAAPL.O climbed 1.4% after saying its Vision Pro mixed-reality device will be available for sale from Feb. 2 in the Un",
+      "score": 0.12,
+      "summary": "Market-wrap article noting a broad rebound in megacap tech and chip stocks; AMD shares are cited as up >4% as semis bounce. No AMD-specific fundamental catalyst beyond sector/market risk-on tone.",
+      "index": 16
+    },
+    {
+      "timestamp": "2024-01-08 00:00:00",
+      "headline": "US STOCKS-Dow hits two-week low as Boeing plummets; megacaps lift Nasdaq",
+      "full_text": "By Johann M Cherian and Ankika Biswas\nJan 8 (Reuters) - Blue-chip index Dow slipped to a fresh two-week low on Monday as Boeing shares nosedived following the grounding of some its jets, while a rebound in megacaps and chip stocks supported the other U.S. stock indexes.\nBoeingBA.N slid 9.1% after the U.S. Federal Aviation Administration (FAA) ordered the temporary grounding of some 737 MAX 9 jets fitted with a panel that blew off an Alaska Air Group ALK.N jet in midair on Friday.\nThe aircraft ma",
+      "score": 0.1,
+      "summary": "Another market-wrap piece: Boeing weakness weighs on the Dow while megacaps and chip stocks rebound; AMD mentioned as part of chip strength. Lacks company-specific AMD news, mostly reflects short-term sector rotation.",
+      "index": 17
+    },
+    {
+      "timestamp": "2024-01-09 00:00:00",
+      "headline": "Will Advanced Micro Devices Be a Trillion-Dollar Stock by 2030?",
+      "full_text": "The trillion-dollar club is certainly rarified air, and one that every company aspires to join. Investors, of course, aspire to find the next candidate with the potential to join such elite company. Odds are, every company that has reached that milestone has made many fortunes for investors along the way.\nCase in point: Artificial intelligence (AI) chip star Nvidia (NASDAQ: NVDA) began 2023 at just a $350 billion market cap, but has more than tripled since, reaching a market cap today exceeding ",
+      "score": 0.12,
+      "summary": "Opinion-style piece arguing AMD could reach a $1T market cap by 2030 on AI tailwinds and MI300 ramp expectations (incl. management\u2019s ~$2B 2024 MI300 revenue target), but also stresses Nvidia\u2019s substantial hardware/software lead and faster product cadence, limiting near-term competitive impact.",
+      "index": 3
+    },
+    {
+      "timestamp": "2024-01-09 00:00:00",
+      "headline": "Zacks Industry Outlook Highlights Advanced Micro Devices, ASE Technology, Cirrus Logic and QuickLogic",
+      "full_text": "For Immediate Release\nChicago, IL \u2013 January 9, 2024 \u2013 Today, Zacks Equity Research discusses Advanced Micro Devices AMD, ASE Technology ASX, Cirrus Logic CRUS and QuickLogic QUIK.\nIndustry: Semiconductors\nLink: https://www.zacks.com/commentary/2206808/4-electronics-semiconductor-stocks-to-escape-macro-headwinds\nThe challenging global macroeconomic environment and end-market volatility have affected the Zacks Electronics - Semiconductors industry. Geo-political tensions, unfavorable forex and ris",
+      "score": 0.05,
+      "summary": "Zacks industry outlook notes macro/geopolitical headwinds and a low industry rank with downward earnings revisions, while citing AMD\u2019s product/partner strength (EPYC, Ryzen AI, MI300) as supportive; AMD is rated Zacks Rank #3 (Hold) with no recent positive estimate revisions highlighted.",
+      "index": 4
+    },
+    {
+      "timestamp": "2024-01-09 00:00:00",
+      "headline": "AMD Strengthens Portfolio With New Radeon & Ryzen Products",
+      "full_text": "Advanced Micro Devices AMD is expanding its gaming portfolio with the launch of the Radeon RX 7600 XT graphics card. The graphics card features 16GB of high-speed GDDR6 memory that supports next-generation AI and content creation workloads. The new graphics card improves AMD\u2019s competitive prowess against NVIDIA NVDA.\n\nUsers with AMD\u2019s latest graphics card, in support with AMD FidelityFX Super Resolution and AMD HYPR-RX with AMD Fluid Motion Frames, can deliver up to 1.9 times faster gaming and r",
+      "score": 0.28,
+      "summary": "Zacks highlights AMD\u2019s new Radeon RX 7600 XT GPU and Ryzen 8000G/5000 desktop launches plus continued AI/data center momentum (MI300X, ROCm), mentions major partners (e.g., Microsoft Azure ND MI300x v5) and reiterates Q4 revenue/earnings expectations implying YoY growth.",
+      "index": 5
+    },
+    {
+      "timestamp": "2024-01-05 00:00:00",
+      "headline": "The Semiconductor Sector Rocketed 73% Higher in 2023, But These 3 Players Still Look Like Bargains",
+      "full_text": "To say that 2023 was a good year for semiconductor stocks is an understatement. The sector, at least as defined by the VanEck Semiconductor ETF (NASDAQ: SMH), rocketed 73.4% in 2023! So if you had shied away from this volatile yet important part of the market, you likely missed out on some of the biggest gains of the year.\nThe artificial intelligence (AI) revolution no doubt played a big part, causing some of the largest names like Nvidia and Advanced Micro Devices to rise 239% and 128%, respect",
+      "score": 0.12,
+      "summary": "Motley Fool sector piece highlighting semiconductors' 2023 rally and calling out other chip names as \u201cbargains.\u201d AMD is mentioned mainly as an AI beneficiary (MI300, chiplets) and with CEO Lisa Su raising the AI accelerator market outlook, but AMD is not the focus and there\u2019s no new company-specific catalyst beyond already-known AI narrative.",
+      "index": 24
+    },
+    {
+      "timestamp": "2024-01-05 00:00:00",
+      "headline": "Why Advanced Micro Devices Stock Jumped 22% in December",
+      "full_text": "Shares of Advanced Micro Devices (NASDAQ: AMD) were surging last month after investors responded positively to the launch of its new Instinct MI300 accelerators designed to run advanced artificial intelligence (AI) models. The launch had been long anticipated by investors.\nAMD stock also benefited from broader market gains during the month, partly in response to the Fed's forecast of lower interest rates in 2024. According to data from S&P Global Market Intelligence, the stock gained 22% in Dece",
+      "score": 0.35,
+      "summary": "Recap explaining AMD\u2019s December surge on MI300 accelerator launch enthusiasm, cited $2B 2024 MI300 revenue outlook and marquee customers (Microsoft, Meta, OpenAI, Oracle). Notes AI chip shortage opportunity but also that high expectations are already priced in and near-term impact may be modest.",
+      "index": 25
+    },
+    {
+      "timestamp": "2024-01-05 00:00:00",
+      "headline": "XLK, AMD, ACN, CSCO: ETF Outflow Alert",
+      "full_text": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the The Technology Select Sector SPDR Fund (Symbol: XLK) where we have detected an approximate $239.3 million dollar outflow -- that's a 0.4% decrease week over week (from 304,210,000 to 302,910,000). Among the largest underlying components of XLK, in trading today Advanced Micro Devices Inc (Symbol: AMD) is up about 2.7%, Accenture plc (Symbol: ACN) is up about 0.3%, and",
+      "score": -0.05,
+      "summary": "ETF flow note: XLK saw a small weekly outflow (~0.4% of shares). AMD is mentioned only as a top holding and is up on the day; the piece is mechanical/flow-related with limited direct implications for AMD fundamentals.",
+      "index": 26
+    }
+  ],
+  "last_updated": "2026-01-26T21:48:17.038642",
+  "completed_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ]
+}

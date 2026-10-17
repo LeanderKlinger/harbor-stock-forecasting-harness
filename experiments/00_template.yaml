@@ -1,0 +1,98 @@
+# =============================================================================
+# Reference template — every YAML option understood by `python -m src.experiments run`.
+# NOT meant to be executed as-is (the grid below would be combinatorially huge).
+# Copy this file and prune to taste. Amend this template when adding new YAML knobs.
+# Source of truth: src/experiments/runner.py (BaseConfig / ModelDefaults / GridConfig).
+# =============================================================================
+
+name: "template" # Required. Shown in run dirs as `{date}_{name}_{counter}`.
+description: "Reference template — copy and prune." # Optional.
+
+# ---------------------------------------------------------------------------
+# `base:` — single-value fields shared across every run in this experiment.
+# Any of these can ALSO appear under `grid:` to become a grid axis (cartesian
+# product) — see GridConfig.config_axes() in runner.py.
+# ---------------------------------------------------------------------------
+base:
+  # Time windows (required)
+  training_start: "2011-01-01"
+  training_end: "2019-12-31"
+  test_start: "2020-01-01"
+  test_end: "2023-12-31"
+
+  # Stock universe (required). Must have a matching CSV in data/stock_data/.
+  stock_ids: ["AMD"]
+
+  # Sentiment ingestion
+  headline_only: true # true = headlines only; false = full article text
+  sentiment_ema_spans: [5, 10, 20] # EMA windows in trading days; one EMA per span
+
+  # Portfolio selection
+  top_k: 4 # Number of stocks held; BuyAndHold/EqualWeight auto-override to len(stock_ids)
+  min_predicted_return: 0.0 # Conviction threshold; predictions below skip the BUY
+  conviction_mode: "fixed" # "fixed" | "volatility_scaled"
+  transaction_cost_pct: 0.001 # 0.001 = 0.1% per trade
+
+  # Neural model knobs
+  sequence_length: 60 # Lookback window for torch models (xLSTM/GRU/MLP/Mamba/Jamba)
+  retraining_cadence_days: null # null = frozen weights; N = refit every N test days
+  feature_set: "full" # "full" (16 = 7 numeric + 9 semantic) | "numeric" (7) | "close_only" (1); torch models only, deterministic models ignore it
+
+# ---------------------------------------------------------------------------
+# `model_defaults:` — torch-model shared kwargs. Ignored by deterministic models.
+# Per-entry overrides in `grid.model[*]` win over these.
+# ---------------------------------------------------------------------------
+model_defaults:
+  hidden_size: 64
+  num_layers: 2
+  epochs: 50
+  batch_size: 32
+  learning_rate: 0.001
+  dropout: 0.2
+  early_stopping_patience: null # null = no early stopping; int = patience epochs
+
+# ---------------------------------------------------------------------------
+# `grid:` — `model` is typed; every other key becomes a grid axis (cartesian
+# product over list values, single-value scalars become a 1-length axis).
+# ---------------------------------------------------------------------------
+grid:
+  model:
+    # ----- Torch models — accept all model_defaults knobs as per-entry overrides
+    - type: xLSTM
+      # hidden_size: 128 # Optional per-entry override
+      # num_layers: 3
+      # num_attention_heads: 4 # xLSTM/Jamba/Mamba specific
+      # dropout: 0.3
+    - type: GRU
+    - type: MLP
+    - type: Mamba
+    - type: Jamba
+
+    # ----- Statistical models
+    - type: ARIMA
+      # order: [5, 1, 2] # (p, d, q); default DEFAULT_ARIMA_ORDER = (5, 1, 2)
+    - type: HoltsLES
+
+    # ----- Baselines (deterministic, no neural knobs, no semantic features)
+    - type: BuyAndHold # Holds all stocks, never rebalances (top_k + horizon auto-overridden)
+    - type: EqualWeight # Holds all stocks, rebalances at horizon cadence (top_k auto-overridden)
+    - type: Momentum
+      lookback: 20 # Lookback days for momentum score; default DEFAULT_MOMENTUM_LOOKBACK = 20
+
+  # Grid axes — every key here is crossed cartesian-style with `model`.
+  # List values expand; scalars are 1-length axes.
+  rebalance_horizon_days: [1, 5, 20, 50] # Prediction horizon == rebalance cadence
+  # top_k: [4, 9]                            # Override base.top_k as a grid axis
+  # min_predicted_return: [0.0, 0.01]        # Conviction threshold sweep
+  # transaction_cost_pct: [0.0, 0.001]       # Cost sweep
+  # conviction_mode: ["fixed", "volatility_scaled"]
+  # sentiment_ema_spans: [[2, 5, 10], [5, 10, 20]]
+  # retraining_cadence_days: [null, 20, 100, auto] # Frozen vs periodic refit
+  # feature_set: ["full", "numeric", "close_only"] # Input-width ablation axis
+
+# ---------------------------------------------------------------------------
+# `seeds:` — list of seeds. Each (config, model) combo runs once per seed.
+# Deterministic models (ARIMA, HoltsLES, BuyAndHold, EqualWeight, Momentum)
+# share cache across seeds; only torch models actually re-train per seed.
+# ---------------------------------------------------------------------------
+seeds: [42]

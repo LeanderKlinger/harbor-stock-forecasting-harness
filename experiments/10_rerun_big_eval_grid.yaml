@@ -1,0 +1,48 @@
+name: "big_eval_canon"
+description: "Canonical rerun of the full evaluation grid under deterministic seeding, CPU-only, with per-rebalance re-estimation for statistical models (auto cadence: changes ARIMA only — neural refit is a frozen-mode no-op, HoltsLES already refits per predict). Source of record for the ICAIF paper."
+
+base:
+  training_start: "2011-01-01"
+  training_end: "2019-12-31"
+  test_start: "2020-01-01"
+  test_end: "2023-12-31"
+  headline_only: true
+  stock_ids: ["MS", "COST", "DE", "NVDA", "TMO", "VLO", "TJX", "MRK", "COP"]
+  top_k: 4
+  sequence_length: 60
+  retraining_cadence_days: "auto"
+
+model_defaults:
+  hidden_size: 64
+  num_layers: 2
+  epochs: 50
+  batch_size: 64
+  dropout: 0.2
+  early_stopping_patience: 5
+
+grid:
+  model:
+    - type: xLSTM
+    - type: GRU
+    - type: Mamba
+    - type: Jamba
+    - type: MLP
+    - type: ARIMA
+    - type: HoltsLES
+    - type: BuyAndHold
+    - type: EqualWeight
+    - type: Momentum
+      lookback: 20
+
+  rebalance_horizon_days: [1, 5, 20]
+  sentiment_ema_spans:
+    - [2, 5, 10]
+    - [5, 10, 20]
+  min_predicted_return: [0.0, 0.01]
+  transaction_cost_pct: [0.0, 0.001]
+  conviction_mode: ["fixed", "volatility_scaled"]
+
+# Grid: 3 horizons x 2 EMAs x 2 thresholds x 2 costs x 2 conviction = 48 config combos
+# Runs: 5 neural x 5 seeds x 48 = 1200 neural + 5 deterministic x 1 x 48 = 240 = 1440 total
+
+seeds: [42, 69, 456, 789, 1337]

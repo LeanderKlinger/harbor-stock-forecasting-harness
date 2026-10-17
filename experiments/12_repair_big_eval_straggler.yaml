@@ -1,0 +1,36 @@
+name: "big_eval_canon"
+description: "Repair run B for big_eval_canon: the single straggler cell outside the thresh=0.01 tail block (MLP seed 789, h=20, EMA [5,10,20], min_pred 0.0, cost 0.001, volatility_scaled), which also failed on file-descriptor exhaustion in the main run."
+
+base:
+  training_start: "2011-01-01"
+  training_end: "2019-12-31"
+  test_start: "2020-01-01"
+  test_end: "2023-12-31"
+  headline_only: true
+  stock_ids: ["MS", "COST", "DE", "NVDA", "TMO", "VLO", "TJX", "MRK", "COP"]
+  top_k: 4
+  sequence_length: 60
+  retraining_cadence_days: "auto"
+
+model_defaults:
+  hidden_size: 64
+  num_layers: 2
+  epochs: 50
+  batch_size: 64
+  dropout: 0.2
+  early_stopping_patience: 5
+
+grid:
+  model:
+    - type: MLP
+
+  rebalance_horizon_days: [20]
+  sentiment_ema_spans:
+    - [5, 10, 20]
+  min_predicted_return: [0.0]
+  transaction_cost_pct: [0.001]
+  conviction_mode: ["volatility_scaled"]
+
+# Runs: 1 (MLP seed 789 only)
+
+seeds: [789]

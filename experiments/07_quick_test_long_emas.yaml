@@ -1,0 +1,38 @@
+name: "small_eval"
+description: "Speed testing sequence length"
+
+base:
+  training_start: "2011-01-01"
+  training_end: "2019-12-31"
+  test_start: "2020-01-01"
+  test_end: "2023-12-31"
+  headline_only: true
+  stock_ids: ["MS", "COST", "DE", "NVDA", "TMO", "VLO", "TJX", "MRK", "COP"]
+  top_k: 4
+  sequence_length: 250
+
+model_defaults:
+  hidden_size: 64
+  num_layers: 2
+  epochs: 50
+  batch_size: 64
+  dropout: 0.2
+  early_stopping_patience: 5
+
+grid:
+  model:
+    - type: xLSTM
+    - type: GRU
+    - type: Mamba
+    - type: Jamba
+    - type: MLP
+
+  rebalance_horizon_days: [20]
+  sentiment_ema_spans:
+    - [10, 40, 100]
+    - [5, 10, 20, 40, 80]
+  min_predicted_return: [0.01]
+  transaction_cost_pct: [0.001]
+  conviction_mode: ["volatility_scaled"]
+
+seeds: [42]
